@@ -1,12 +1,14 @@
-# Code Book
+# Code Book:
 
 This document describes the variables in used in this project and the variables in the tidy dataset "HAR_df_mean_Table.txt", and describe the steps taken to clean up the data
 
 # Step to clean up the raw data:
 
 1- Download the zip file with the raw data
+   The file was downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2- Unzip the raw data onto the R working directory
+
 
 3- Get the features and Activities Desciption
 
@@ -19,7 +21,7 @@ This document describes the variables in used in this project and the variables 
 7- Create the final tidy data set with the MEAN for each feature by Subject and Activity
 
 
-# Variables
+# Variables:
 (for full descrition of the variable, please refer to:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
