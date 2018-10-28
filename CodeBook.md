@@ -67,8 +67,8 @@ This document describes the variables in used in this project and the variables 
 
 
 
-# Variables:
-(for full descrition of the variable, please refer to:
+# Variables or feactures:
+(for full description of the features, please refer to:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 tBodyAcc-mean()-X
