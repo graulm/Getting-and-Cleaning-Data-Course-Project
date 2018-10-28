@@ -45,8 +45,20 @@ This document describes the variables in used in this project and the variables 
    The layout is as follows: Subject (1..30), Activity, and the "mean" for each of the feature. Follows is an example:
    
    Subject ActivityDesc tBodyAcc-mean()-X tBodyAcc-mean()-Y ......
+   
    1 STANDING 0.265696920582133 -0.0182981725176081 -0.10784573454611 ......
+   
    2 STANDING 0.273113115788079 -0.0191323183174834 -0.115649958175497 .....
+   
+
+# Activity Description
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
 
 
 # Variables:
