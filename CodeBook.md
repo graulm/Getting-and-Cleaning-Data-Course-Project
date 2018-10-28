@@ -5,6 +5,7 @@ This document describes the variables in used in this project and the variables 
 # Step to clean up the raw data:
 
 1- Download the zip file with the raw data
+
    The file was downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2- Unzip the raw data onto the R working directory
@@ -12,13 +13,26 @@ This document describes the variables in used in this project and the variables 
 
 3- Get the features and Activities Desciption
 
+   The feature and activities are in a differents files (activity_labels.txt, features.txt). So this steps loads those two files
+   and the requiried features (only mean and standard desviation features) are selected here.
+   
+
 4- Load the X and Y TEST files, select the features with the mean & stand dev, and assign feature names
 
+   This step load the X and Y test files which are in seperated files (X_test.txt and y_test.txt) , selecting only the required
+   features. Then assing the feature names and finnaly combine both files into one.
+
 5- Load the X and Y TRAIN files, select the features with the mean & stand dev, and assign feature names
+
+   This step load the X and Y training files which are in seperated files (X_train.txt and y_train.txt), selecting only the required
+   features. Then assing the feature names and finnaly combine both files into one.
 
 6- Combine both TEST and TRAIN data frame into one data frame
 
 7- Create the final tidy data set with the MEAN for each feature by Subject and Activity
+
+   To create the tidy data set, it was used the "melt" function defining the "Subject" and th e"Activity" as the keys IDs.
+   Then it was used the "dcast" function to create the table like data set using the "mean" as the summary function.
 
 
 # Variables:
