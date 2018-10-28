@@ -6,9 +6,14 @@ The purpose of this project is to demonstrate the student ability to collect, wo
 This project include following files:
 
 README.md       : This doc.
+
 CodeBooks.md    : It describes the variables, the data, and any transformations or work that was performed to clean up the data.
+
 run_analysis.R  : It contains the R code to perform the data clean up and anlysis.
+
 HAR_df_mean_Table.txt : This is hte tidy data set with the average of each variable for each activity and each subject.
+
+
 
 The raw data was collected from the accelerometers from the Samsung Galaxy S smartphone. It is available form the following URL: 
 
