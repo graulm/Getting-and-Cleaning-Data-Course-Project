@@ -13,6 +13,16 @@ This project include following files:
 
 **HAR_df_mean_Table.txt** : This is hte tidy data set with the average of each variable for each activity and each subject.
 
+This file is the tidy data set required by the project that shows the average of each feature for each Activity and each Subject.
+   
+The layout is as follows: Subject (1..30), Activity, and the "mean" for each of the feature. Follows is an example:
+   
+Subject ActivityDesc tBodyAcc-mean()-X tBodyAcc-mean()-Y ......
+   
+1 STANDING 0.265696920582133 -0.0182981725176081 -0.10784573454611 ......
+   
+2 STANDING 0.273113115788079 -0.0191323183174834 -0.115649958175497 .....
+
 
 
 The raw data was collected from the accelerometers from the Samsung Galaxy S smartphone. It is available form the following URL: 
