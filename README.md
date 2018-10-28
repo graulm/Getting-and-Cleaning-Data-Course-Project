@@ -25,6 +25,8 @@ Subject ActivityDesc tBodyAcc-mean()-X tBodyAcc-mean()-Y ......
 
 
 
+# Raw Data:
+
 The raw data was collected from the accelerometers from the Samsung Galaxy S smartphone. It is available form the following URL: 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -32,6 +34,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 A full descrition of the raw data can be found here:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 
 # Steps to clean up the data:
 
