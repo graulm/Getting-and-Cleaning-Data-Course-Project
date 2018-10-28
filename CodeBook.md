@@ -4,12 +4,27 @@ This document describes the variables in used in this project and the variables 
 
 # Step to clean up the raw data:
 
+1- Download the zip file with the raw data
+
+2- Unzip the raw data onto the R working directory
+
+3- Get the features and Activities Desciption
+
+4- Load the X and Y TEST files, select the features with the mean & stand dev, and assign feature names
+
+5- Load the X and Y TRAIN files, select the features with the mean & stand dev, and assign feature names
+
+6- Combine both TEST and TRAIN data frame into one data frame
+
+7- Create the final tidy data set with the MEAN for each feature by Subject and Activity
 
 
-# Variables (for full descrition of the variable, please refer to: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+# Variables
+(for full descrition of the variable, please refer to:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
+tBodyAcc-mean()-X \n
+tBodyAcc-mean()-Y \n
 tBodyAcc-mean()-Z
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
